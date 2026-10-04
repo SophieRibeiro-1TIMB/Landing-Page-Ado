@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    background-color: #0A0B10;
+}
+main {
+    width: 1400px;
+    background-color: #1a1d2985;
+    margin-inline: auto;
+    padding: 10px;
+}
+
+p, li, div{
+    color: #F4F4F6;
+    text-align: justify
+    ;
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 1000px;
+    margin-inline: auto;
+    margin-bottom: 10px;
+}
+
+h2, span, h3, .s {
+    font-family: 'Dela Gothic One', cursive;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Cinzel', cursive;
+    color: #110336;
+    font-size: 50px;
+    text-shadow: 0px 0px 20px #00eeff9c;
+}
+img {
+    display: inline-block;
+    margin-inline: auto;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 35px;
+    color: #3899f4e9;
+    margin-block: 30px 15px;
+}
+.h3 {
+    font-size: 30px;
+    color: #3899f4b0;
+    margin-block: 80px 20px;
+}
+
+ .l{
+    font-size: 22px;
+    display: inline-block;
+    margin-left: 40px;
+    max-width: 725px;
+    margin-bottom: 50px;
+ }
+.chando {
+    margin-inline: 200px 30px;
+    width: 200px;
+    margin-bottom: -25px;
+    border-radius: 3px;
+}
+.desenho {
+    width: 270px;
+    margin-block: 20px -130px;
+}
+.n {
+    display: inline-block;
+    background-color: #0c0336;
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #a7d2ffbc;
+    max-width: 720px;
+}
+
+.logo{
+    width: 750px;
+}
+
+.p {
+    font-family: 'Dela Gothic One', cursive;
+    color: #0550e7db;
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.intro {
+  display: grid;
+  grid-template-areas: "camada";
+  position: relative;
+  max-width: 1300px;
+  margin-inline: auto;
+  align-items: center;
+}
+
+.ado {
+  grid-area: camada;
+  width: 1300px;
+  margin-inline: auto;
+  border-bottom: 10px solid #110336;
+}
+
+.Ado{
+  display: block;
+  width: 100%;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 5%, black 90%);
+  mask-image: linear-gradient(to bottom, transparent 5%, black 90%);
+}
+
+.conteudo-topo {
+  grid-area: camada;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -505px;
+}
+
+.a, .b, .c, .d, .e, .f {
+    padding-block: 10px;
+    margin: 20px 100px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 2px #110336;
+
+    p, li, div, h3{
+        text-align: left;
+        margin-left: 20px;
+    }
+   
+    }
+    h3 {
+        font-size: 15px;
+        margin-bottom: 10px;
+        
+
+         span {
+            font-family:'Cinzel', cursive;
+            font-size: 33px;
+            margin-right: 10px;
+    }
+}
+.a {
+        background-color: #36257cdb;
+
+        background-image:
+    linear-gradient(to right, #36257cdb 10%, rgba(255, 141, 187, 0) 70%),
+    url(./assets/Kyogen.jpg);
+    background-position: right;
+    background-size: 40%;
+    background-repeat: no-repeat;
+
+    h3{
+        color: #1b1233;
+    }
+    a{
+        background-color: #1b1233;
+        border: 2px solid #6664958a;
+        box-shadow: 0px 2px 1px #0A0B10;
+        color: aliceblue;
+        text-shadow: 0px 2px 1px #36257cdb;
+        border-radius: 10px;
+        padding: 6px;
+    }
+}
+.b {
+        background-color: #5f556f;
+
+        background-image:
+    linear-gradient(to right, #5f556f 15%, rgba(255, 141, 187, 0) 70%),
+    url(./assets/zanmu.webp);
+    background-position: right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+    h3{
+        color: #291733;
+    }
+    a{
+        background-color: #291733;
+        border: 2px solid #6664958a;
+        box-shadow: 0px 2px 1px #0A0B10;
+        color: aliceblue;
+        text-shadow: 0px 2px 1px #36257cdb;
+        border-radius: 10px;
+        padding: 6px;
+    }
+}
+.c {
+    background-color: #47000f;
+
+    background-image:
+    linear-gradient(to right, #47000f 1%, rgba(255, 141, 187, 0) 70%),
+    url(./assets/utattemita.jpg);
+    background-position: right;
+    background-size: 30%;
+    background-repeat: no-repeat;
+
+    h3{
+        color: #170000;
+    }
+    a{
+        background-color: #170000;
+        border: 2px solid #6664958a;
+        box-shadow: 0px 2px 1px #0A0B10;
+        color: aliceblue;
+        text-shadow: 0px 2px 1px #36257cdb;
+        border-radius: 10px;
+        padding: 6px;
+    }
+}
+.d {
+    background-color: #790e1f;
+
+    background-image:
+    linear-gradient(to right, #790e1f 5%, rgba(255, 141, 187, 0) 70%),
+    url(./assets/ado\'s_best_adobum.jpg);
+    background-position: right;
+    background-size: 20%;
+    background-repeat: no-repeat;
+
+    h3{
+        color: #2a1117;
+    }
+    a{
+        background-color: #2a1117;
+        border: 2px solid #9564788a;
+        box-shadow: 0px 2px 1px #0A0B10;
+        color: aliceblue;
+        text-shadow: 0px 2px 1px #36257cdb;
+        border-radius: 10px;
+        padding: 6px;
+    }
+}
+.e {
+    background-color: #ff8dbb;
+
+    img{
+        margin-left: 20px;
+        width: 600px;
+        margin-bottom: 5px;
+
+       
+    }
+
+    background-image:
+    linear-gradient(to right, #ff8dbb 10%, rgba(255, 141, 187, 0) 70%),
+    url(./assets/Uta\'s_Songs_One_Piece_Film_Red_-_Ado.jpg);
+    background-position: right;
+    background-size: 52%;
+    background-repeat: no-repeat;
+
+    p, li, div{
+        text-shadow: 0px 0px 5px#170000;
+    }
+    div{
+        margin-top: -50px;
+    }
+    a{
+        background-color: #d5e7ed;
+        border: 2px solid #ff0b54;
+        box-shadow: 0px 2px 1px #0A0B10;
+        color: rgb(214, 11, 109);
+        text-shadow: 0px 2px 1px #b8b7bedb;
+        border-radius: 10px;
+        padding: 6px;
+    }
+}
+
+.f {
+    background-color: #171f64ae;
+    background-image:
+    linear-gradient(to right, #171f64ae 10%, rgba(255, 141, 187, 0) 70%),
+    url(./assets/Ado-Vivarium.jpg);
+    background-position: right;
+    background-size: 35%;
+    background-repeat: no-repeat;
+
+    h3{
+        color: #0d0726;
+    }
+    a{
+        background-color: #0d0726;
+        border: 2px solid #0503458a;
+        box-shadow: 0px 2px 1px #0A0B10;
+        color: aliceblue;
+        text-shadow: 0px 2px 1px #36257cdb;
+        border-radius: 10px;
+        padding: 6px;
+    }
+}
+
+.d, .f{
+    h3{
+        font-family: 'Cinzel', cursive;
+        font-size: 33px;
+    }
+}
+
+ a {
+    font-family: 'DM Serif Display', serif;
+    color: #00F0FF;
+    text-decoration: none;
+    font-size: 17px;
+ }
+ul{
+    list-style: none;
+}
+
+footer {
+    background-color: #28135255;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+
+    a {
+        color: #d5e7ed;
+        margin-inline: 5px;
+    }
+
+    .direitos{
+        max-width: 350px;
+        margin-inline: auto;
+        color: #d5e7ed9e;
+        font-size: 14px;
+    }
+}
